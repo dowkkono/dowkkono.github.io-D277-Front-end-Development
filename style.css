@@ -1,0 +1,109 @@
+body {
+    color: rgb(255,100,0);
+    background: radial-gradient(circle, black 80%, rgb(189, 114, 17));
+    font-family: impact;
+}
+
+nav a {
+    color: rgb(255,100,0);
+}
+
+nav a:hover {
+    color:rgb(189, 114, 17);
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.music {
+    position: relative;
+    left: 60vw;
+}
+
+#title {
+    position: absolute;
+    left: 42vw;
+    z-index: 3;
+} 
+    
+.title {
+    position: absolute;
+    left: 45vw;
+    z-index: 3;
+}
+
+#sunset {
+    position: relative;
+    left: 36vw;  
+}
+
+#beachgif {
+    position: relative;
+    left: 33vw;
+    margin: 20px;
+}
+
+.align {
+    text-align: center;
+}
+
+#table {
+    position: relative;
+    left: 30vw;
+    border: 5px double rgb(189, 114, 17);
+    border-radius: 10px; 
+    box-shadow: 10px 10px rgb(255,100,0);
+    margin: 30px;
+    text-align: center;
+    animation-name: colorchg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+section ul li {
+    animation-name: colorchg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchg {
+    from {color: rgb(255,100,0); }
+    to {color: rgb(189, 114, 17); }
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#float {
+    float: right;
+    margin: 30px;
+}
+
+aside img:hover {
+    transform: rotate(25deg);
+}
+
+#submit:hover {
+    transform: scale(2,2);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+aside a {
+    color: rgb(255,100,0);
+}
+
+aside a:hover {
+    color: rgb(189, 114, 17);
+}
+
